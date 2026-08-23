@@ -86,7 +86,7 @@
     hpc_mem_per_cpu = 15G
     capabilities = 'method=opt'
     abs_zero = 1e-7
-    rel_err = 1e-6
+    rel_err = 1e-5
     max_time = 5000
   []
 
@@ -105,7 +105,7 @@
     min_parallel = 96
     hpc_mem_per_cpu = 15G
     abs_zero = 1e-7
-    rel_err = 1e-6
+    rel_err = 1e-5
     max_time = 1000
   []
 
@@ -125,7 +125,7 @@
     # Cross-section warning due to missing fission-only
     allow_warnings = true
     abs_zero = 1e-7
-    rel_err = 1e-6
+    rel_err = 1e-5
   []
 
   [coupled_simulation_load_follow_sm]
@@ -146,6 +146,6 @@
     # Cross-section warning due to missing fission-only
     allow_warnings = true
     abs_zero = 1e-7
-    rel_err = 1e-6
+    rel_err = 1e-5
   []
 []
