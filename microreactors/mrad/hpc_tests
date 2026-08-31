@@ -109,7 +109,7 @@
     type = CSVDiff
     working_directory = 'steady_K_SM'
     input = 'K-HPMR_GRIFFIN.i'
-    csvdiff = 'mrad_coupled_out.csv mrad_coupled_out_bison0.csv
+    csvdiff = 'mrad_coupled_out.csv mrad_coupled_out_bison0.csv'
     executable_pattern = 'dire_wolf*'
     cli_args = "Executioner/richardson_max_its=5 Executioner/richardson_abs_tol=1e-1 Outputs/csv=true "
                "Outputs/file_base=mrad_coupled_out Outputs/exodus=false MultiApps/bison/cli_args='Outputs/exodus=false;Executioner/nl_abs_tol=1e-1;Executioner/TimeStepper/dt=10000;MultiApps/sockeye/cli_args=Executioner/dt=10000' "
